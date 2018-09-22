@@ -1,13 +1,18 @@
 fileFormatVersion: 2
-guid: 8f6c3bb00aec3e045b72ccf49649cd1a
+guid: 16a95d02b12618b4f82c74d0e603ba1d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: Chair
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2100000: Plastic
+    2100002: BlueTap
+    2100004: RedTap
+    2100006: Metal
+    2100008: Display
+    2100010: Water
     2300000: default
     3300000: default
     4300000: default
@@ -15,8 +20,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Chair
-    second: {fileID: 2100000, guid: 7f3c264236b327048bdfd5128c548959, type: 2}
+      name: BlueTap
+    second: {fileID: 2100000, guid: c81de7127b8e587429e0b90debeede20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: c81de7127b8e587429e0b90debeede20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: c81de7127b8e587429e0b90debeede20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedTap
+    second: {fileID: 2100000, guid: c81de7127b8e587429e0b90debeede20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: 9a5870d349913ec4bb814d474f61bbce, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

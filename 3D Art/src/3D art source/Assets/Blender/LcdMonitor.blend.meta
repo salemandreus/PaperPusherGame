@@ -1,22 +1,26 @@
 fileFormatVersion: 2
-guid: 8f6c3bb00aec3e045b72ccf49649cd1a
+guid: 688c89e528cb04d4aac04732ddefccd5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: Chair
-    2300000: default
-    3300000: default
-    4300000: default
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Chair
-    second: {fileID: 2100000, guid: 7f3c264236b327048bdfd5128c548959, type: 2}
+    100000: Cube_003
+    100002: //RootNode
+    100004: Plane
+    400000: Cube_003
+    400002: //RootNode
+    400004: Plane
+    2100000: unnamed
+    2100002: Plastic
+    2100004: Display
+    2300000: Cube_003
+    2300002: Plane
+    3300000: Cube_003
+    3300002: Plane
+    4300000: Plane
+    4300002: Cube_003
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -68,7 +72,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +97,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
