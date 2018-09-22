@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f6c3bb00aec3e045b72ccf49649cd1a
+guid: 05368e02170af6e4d9bc8f8f0ca44ce5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,7 +7,8 @@ ModelImporter:
     100002: default
     400000: //RootNode
     400002: default
-    2100000: Chair
+    2100000: Plastic
+    2100002: Display
     2300000: default
     3300000: default
     4300000: default
@@ -15,8 +16,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Chair
-    second: {fileID: 2100000, guid: 7f3c264236b327048bdfd5128c548959, type: 2}
+      name: Display
+    second: {fileID: 2100000, guid: 2888b513397f90d44bd158f2efe9642d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 2888b513397f90d44bd158f2efe9642d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

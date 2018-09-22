@@ -1,22 +1,35 @@
 fileFormatVersion: 2
-guid: 8f6c3bb00aec3e045b72ccf49649cd1a
+guid: b031c7242646d444a9d06ba0ccc15b7f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: Chair
-    2300000: default
-    3300000: default
-    4300000: default
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Chair
-    second: {fileID: 2100000, guid: 7f3c264236b327048bdfd5128c548959, type: 2}
+    100000: Bottle
+    100002: Frame
+    100004: Plane
+    100006: //RootNode
+    400000: Bottle
+    400002: Frame
+    400004: Plane
+    400006: //RootNode
+    2100000: unnamed
+    2100002: Plastic
+    2100004: Metal
+    2100006: BlueTap
+    2100008: RedTap
+    2100010: Display
+    2100012: Water
+    2300000: Bottle
+    2300002: Frame
+    2300004: Plane
+    3300000: Bottle
+    3300002: Frame
+    3300004: Plane
+    4300000: Plane
+    4300002: Frame
+    4300004: Bottle
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -68,7 +81,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +106,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
